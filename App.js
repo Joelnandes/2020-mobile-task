@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { bold } from 'ansi-colors';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Meu primeiro app mobile!</Text>
+      <Text> Cainan Open up App.js to start working on your app!</Text>
     </View>
   );
 }
